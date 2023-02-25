@@ -1,0 +1,19 @@
+@import "./../../styles/variables_mixins";
+
+.buttondark__outline{
+    background-color: $color_dark;
+    color: $color-white;
+    @include button__layout;
+    font-size:  $font-size-SM;
+    @include flexCenter;
+    transition: transform .2s ease-in;
+    &:hover{
+        opacity: 0.9;
+        transform: scale(1.03);
+    }
+}
+.buttondark__sign{
+    font-size:  $font-size-medium;
+    margin-right:15px ;
+    margin-left: -15px;
+}

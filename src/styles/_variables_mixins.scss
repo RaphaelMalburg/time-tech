@@ -1,0 +1,37 @@
+$font-base: 'Poppins',sans-serif;
+
+$color-purple:#B19CD9;
+$color-blue:#5DA3A9;
+$color-bege:#E4D3B4;
+$color-white:#F6F6F6;
+$color-dark:#3F3A3A;
+$color-gray:#D9D9D9;
+
+$font-size-large: 56px;
+$font-size-small: 14px;
+$font-size-SM: 18px;
+$font-size-medium: 32px;
+$font-size-large-mobile: 50px;
+
+@mixin button__layout{
+    cursor: pointer;
+    width: 195px;
+    height: 50px;
+    border-radius: 70px;
+    -webkit-box-shadow: inset 10px 10px 168px -96px rgba(0,0,0,1);
+    -moz-box-shadow: inset 10px 10px 168px -96px rgba(0,0,0,1);
+    box-shadow: inset 10px 10px 168px -96px rgba(0,0,0,1);
+    letter-spacing: 0.7px;
+    font-weight: 600;
+
+}
+
+@mixin flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin textShadow{
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}

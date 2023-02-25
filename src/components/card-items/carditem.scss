@@ -1,0 +1,30 @@
+@import "./../../styles/variables_mixins";
+
+.card__outline{
+    background: $color-gray;
+    border: 1px solid $color-dark;
+    width: 380px;
+    border-radius: 10px;
+    padding: 30px;
+    @include flexCenter;
+    flex-direction: column;
+    gap: 0.8rem;
+    -webkit-box-shadow: inset 10px 10px 164px -89px rgba(130,128,130,1);
+    -moz-box-shadow: inset 10px 10px 164px -89px rgba(130,128,130,1);
+    box-shadow: inset 10px 10px 164px -89px rgba(130,128,130,1);
+    .card__image{
+        width: 280px;
+        img{
+
+        }
+    }
+    h2{
+        color: $color-dark;
+    }
+    h1{
+        margin-top: -40px;
+        color: $color-white;
+        font-size: $font-size-large;
+        @include textShadow;
+    }
+}

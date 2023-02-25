@@ -1,0 +1,20 @@
+@import "./../../styles/variables_mixins";
+
+.buttonlight__outline{
+    background-color: $color_gray;
+    color: $color-dark;
+    @include button__layout;
+    font-size:  $font-size-SM;
+    @include flexCenter;
+    transition: transform .2s ease-in;
+    border: 2px solid black ;
+    &:hover{
+        opacity: 0.9;
+        transform: scale(1.03);
+    }
+}
+.buttonlight__sign{
+    font-size:  26px;
+    font-weight: bold;
+    margin-right:10px ;
+}

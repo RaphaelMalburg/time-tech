@@ -1,0 +1,13 @@
+
+@import "reset";
+@import "variables_mixins";
+
+*{
+  @include reset;
+  font-family: $font-base;
+
+}
+body {
+  background: rgb(178, 143, 143);
+
+}

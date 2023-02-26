@@ -12,11 +12,11 @@ nav{
     .nav__links{
         @include flexCenter;
         flex-direction: row;
-        gap: 1.8rem;
+        gap: 2.5rem;
         color: $color-white;
         font-size: $font-size-nav;
         font-weight: 600;
-        letter-spacing: 1.3px;
+        letter-spacing: 1.5px;
         @include textShadow;
         svg{
             font-size: $font-size-medium;

@@ -36,15 +36,15 @@ section img {
   display: block;
   margin: auto;
   width: 230px;
-  padding-top: 180px;
+  padding-top: 220px;
   z-index: 4;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 section .home__split-blue {
   background-color: #76b3b8;
   position: relative;
   overflow: hidden;
-  transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.8s ease-in-out;
 }
 section .home__split-blue:before {
   content: "";
@@ -54,7 +54,7 @@ section .home__split-blue:before {
   width: 50%;
   height: 100%;
   background-color: inherit;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.8s ease-in-out;
   background-color: #5DA3A9;
 }
 section .home__split-blue:after {
@@ -62,10 +62,10 @@ section .home__split-blue:after {
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 100%;
   height: 100%;
   background-color: inherit;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.8s ease-in-out;
   background-color: #5DA3A9;
 }
 section .home__split-blue:hover:before {
@@ -75,11 +75,79 @@ section .home__split-blue:hover:after {
   transform: translateX(-100%);
 }
 section .home__split-blue:hover > img {
-  transform: rotate(10deg) scale(1.1);
+  transform: rotate(10deg) scale(1.2);
 }
 section .home__split-bege {
+  background-color: #f0dfbd;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.8s ease-in-out;
+}
+section .home__split-bege:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  background-color: inherit;
+  transition: transform 0.8s ease-in-out;
   background-color: #E4D3B4;
 }
+section .home__split-bege:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  transition: transform 0.8s ease-in-out;
+  background-color: #E4D3B4;
+}
+section .home__split-bege:hover:before {
+  transform: translateX(100%);
+}
+section .home__split-bege:hover:after {
+  transform: translateX(-100%);
+}
+section .home__split-bege:hover > img {
+  transform: rotate(10deg) scale(1.2);
+}
 section .home__split-purple {
+  background-color: #c0aae9;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.8s ease-in-out;
+}
+section .home__split-purple:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  background-color: inherit;
+  transition: transform 0.8s ease-in-out;
   background-color: #B19CD9;
+}
+section .home__split-purple:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  transition: transform 0.8s ease-in-out;
+  background-color: #B19CD9;
+}
+section .home__split-purple:hover:before {
+  transform: translateX(100%);
+}
+section .home__split-purple:hover:after {
+  transform: translateX(-100%);
+}
+section .home__split-purple:hover > img {
+  transform: rotate(10deg) scale(1.2);
 }/*# sourceMappingURL=home.css.map */

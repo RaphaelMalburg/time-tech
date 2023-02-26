@@ -1,0 +1,27 @@
+@import "./../../styles/variables_mixins";
+
+nav{
+    @include container;
+    @include flexCenter;
+    justify-content: space-between;
+    padding-top: 20px;
+
+    .nav__logo-container{
+        width: 100px;
+    }
+    .nav__links{
+        @include flexCenter;
+        flex-direction: row;
+        gap: 1.8rem;
+        color: $color-white;
+        font-size: $font-size-nav;
+        font-weight: 600;
+        letter-spacing: 1.3px;
+        @include textShadow;
+        svg{
+            font-size: $font-size-medium;
+            @include textShadow;
+            filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+        }
+    }
+}

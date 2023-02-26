@@ -1,0 +1,85 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+}
+section .home__split__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+  flex: 1;
+  height: 70vh;
+  gap: 1rem;
+  padding-bottom: 130px;
+}
+section .home__split__container button {
+  padding: 12px 0;
+  z-index: 5;
+}
+section .home__split__container .home__price-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+section .home__split__container span, section .home__split__container p, section .home__split__container h1 {
+  z-index: 5;
+}
+section img {
+  display: block;
+  margin: auto;
+  width: 230px;
+  padding-top: 180px;
+  z-index: 4;
+  transition: transform 0.5s ease-in-out;
+}
+section .home__split-blue {
+  background-color: #76b3b8;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.5s ease-in-out;
+}
+section .home__split-blue:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  background-color: inherit;
+  transition: transform 0.5s ease-in-out;
+  background-color: #5DA3A9;
+}
+section .home__split-blue:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: inherit;
+  transition: transform 0.5s ease-in-out;
+  background-color: #5DA3A9;
+}
+section .home__split-blue:hover:before {
+  transform: translateX(100%);
+}
+section .home__split-blue:hover:after {
+  transform: translateX(-100%);
+}
+section .home__split-blue:hover > img {
+  transform: rotate(10deg) scale(1.1);
+}
+section .home__split-bege {
+  background-color: #E4D3B4;
+}
+section .home__split-purple {
+  background-color: #B19CD9;
+}/*# sourceMappingURL=home.css.map */

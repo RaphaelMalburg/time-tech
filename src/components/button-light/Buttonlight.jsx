@@ -5,10 +5,10 @@ import { MdAddShoppingCart } from 'react-icons/md';
 
 function Buttonlight() {
   return (
-    <div className="buttonlight__outline">
+    <button type="button" className="buttonlight__outline">
       <span className="buttonlight__sign"><MdAddShoppingCart /></span>
       <span>Add To Cart</span>
-    </div>
+    </button>
   );
 }
 export default Buttonlight;
